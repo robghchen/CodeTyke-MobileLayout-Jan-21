@@ -44,7 +44,15 @@
     }
 
     &__submitButtonContainer {
-        width: 100%;
         height: 50px;
+        .submitButton {
+            float: right;
+        }
+        @media only screen and (max-width: $mobile) {
+            width: 100%;
+            .submitButton {
+                float: unset;
+            }
+        }
     }
 }
