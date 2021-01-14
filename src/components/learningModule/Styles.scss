@@ -17,6 +17,9 @@
     &__subHeader{
         @include subheader;
         min-height: 42px;
+        @media only screen and (max-width: $mobile) {
+            display: none;
+        }
     }
   
     &__answerArea {
