@@ -12,6 +12,9 @@
         color: $morning-sky;
         font-weight: 600;
         font-size: 1.5em;
+        @media only screen and (max-width: $mobile) {
+            text-align: left;
+        }
     }
 
     &__subHeader{
